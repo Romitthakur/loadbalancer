@@ -8,7 +8,7 @@ retries too.
 
 It also performs active cleaning and passive recovery for unhealthy backends.
 
-# simple server
+# Simple server
 
 Spawns multiple backend servers.
 Take input for listening port number
@@ -33,5 +33,5 @@ go run .\cmd\simplelb\lb.go --backends=http://localhost:3031,http://localhost:30
 
 
 For more details :
-Check is awesome blog-post
+Check this awesome blog-post
 https://kasvith.github.io/posts/lets-create-a-simple-lb-go/
